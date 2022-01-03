@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/contactListItem"
+    android:onClick="getContactDetails"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -39,4 +40,5 @@
             android:textSize="14sp"
             app:layout_constraintStart_toEndOf="@+id/contactImg"
             app:layout_constraintTop_toBottomOf="@+id/nameContactItem" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
